@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: Azure OCR API
+  description: API for extracting text using Azure OCR
+  version: 1.0.0
+paths:
+  /ocr:
+    post:
+      summary: Extract text from an image using Azure OCR
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                imageUrl:
+                  type: string
+                  description: URL of the image for OCR
+      responses:
+        '200':
+          description: Successfully extracted text
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  text:
+                    type: string
+                    description: Extracted text from the image

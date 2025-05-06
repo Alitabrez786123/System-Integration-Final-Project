@@ -71,6 +71,10 @@ https://system-integration-final-project.onrender.com
 
 However, when you directly try to open the link, you will get "Cannot GET", but when you send POST request to the same URL on "POSTMAN" you will get the output
 
+## Project Documentation
+Project Report is uploaded in the repository as "System_Integration_Final_Project.pdf", pleasego through it for detailed process and execution screenshots
+Thank you!
+
 ## Swagger API Documentation
 To access the Swagger API documentation:
 

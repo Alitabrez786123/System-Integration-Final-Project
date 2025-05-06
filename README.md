@@ -38,7 +38,7 @@ The application will run on http://localhost:10000.
 
 Test the OCR functionality using Postman:
 ```bash
-Send a POST request to http://localhost:3000/ocr with the following body:
+Send a POST request to http://localhost:10000/ocr with the following body:
 ```
 ```json
 {
@@ -64,6 +64,13 @@ Response:
   "text": "Extracted text from the image"
 }
 ```
+## Deployment on Render
+I have deployed the Azure OCR API on "Render" instead of "Digital Ocean", the following is the link for the Live API
+
+https://system-integration-final-project.onrender.com
+
+However, when you directly try to open the link, you will get "Cannot GET", but when you pase the same URL on "POSTMAN" you will get the output
+
 ## Swagger API Documentation
 To access the Swagger API documentation:
 
